@@ -1,0 +1,61 @@
+.index{
+    background-image: url(./images/guess\ the\ number.jpeg);
+    background-size: cover;
+
+}
+.playgame{
+    background-image: url(./images/what\ is\ your\ number.jpeg);
+    background-size: cover;
+}
+.container{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+
+}
+.container1{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px;
+}
+button{
+    height: 60px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 35px;
+    box-shadow: 5px 5px 5px;
+    background-color: aqua;
+    margin-top: 100px;
+}
+#display{
+    height: 60px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+}
+#message{
+    height: 40px;
+    width: 500px;
+    background-color: aquamarine;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.gameover{
+    height: 300px;
+    width: 400px;
+}
